@@ -123,7 +123,7 @@
 				618890BD2B830DE600A4BC2A /* Domain */,
 				618890C12B830E1C00A4BC2A /* Presentation */,
 			);
-			path = "Heimdall-V";
+			name = "Heimdall-V";
 			sourceTree = "<group>";
 		};
 		61888FE62B8302FD00A4BC2A /* Preview Content */ = {
@@ -155,14 +155,14 @@
 			isa = PBXGroup;
 			children = (
 			);
-			path = Domain;
+			name = Domain;
 			sourceTree = "<group>";
 		};
 		618890BE2B830DF400A4BC2A /* Data  */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = "Data ";
+			name = "Data ";
 			sourceTree = "<group>";
 		};
 		618890C02B830E0C00A4BC2A /* Application */ = {
@@ -173,7 +173,7 @@
 				618890C42B830E4700A4BC2A /* Resources */,
 				618A40B12B830F440043B343 /* Unit Test */,
 			);
-			path = Application;
+			name = Application;
 			sourceTree = "<group>";
 		};
 		618890C12B830E1C00A4BC2A /* Presentation */ = {
@@ -181,7 +181,7 @@
 			children = (
 				618890C22B830E1E00A4BC2A /* Modules */,
 			);
-			path = Presentation;
+			name = Presentation;
 			sourceTree = "<group>";
 		};
 		618890C22B830E1E00A4BC2A /* Modules */ = {
@@ -189,7 +189,7 @@
 			children = (
 				61888FE12B8302FA00A4BC2A /* ContentView.swift */,
 			);
-			path = Modules;
+			name = Modules;
 			sourceTree = "<group>";
 		};
 		618890C32B830E3700A4BC2A /* Configuration */ = {
