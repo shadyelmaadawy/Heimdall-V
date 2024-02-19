@@ -11,13 +11,13 @@
 		61888FE22B8302FA00A4BC2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61888FE12B8302FA00A4BC2A /* ContentView.swift */; };
 		61888FE42B8302FD00A4BC2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61888FE32B8302FD00A4BC2A /* Assets.xcassets */; };
 		61888FE82B8302FD00A4BC2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61888FE72B8302FD00A4BC2A /* Preview Assets.xcassets */; };
-		61888FF22B8302FD00A4BC2A /* Heimdall_VTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61888FF12B8302FD00A4BC2A /* Heimdall_VTests.swift */; };
-		61888FFC2B8302FD00A4BC2A /* Heimdall_VUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61888FFB2B8302FD00A4BC2A /* Heimdall_VUITests.swift */; };
-		61888FFE2B8302FD00A4BC2A /* Heimdall_VUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61888FFD2B8302FD00A4BC2A /* Heimdall_VUITestsLaunchTests.swift */; };
+		61888FFC2B8302FD00A4BC2A /* Heimdall_VTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61888FFB2B8302FD00A4BC2A /* Heimdall_VTests.swift */; };
 		618A40C32B8317910043B343 /* Heimdall_Infrastructure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618A40C22B8317910043B343 /* Heimdall_Infrastructure.framework */; };
 		618A40C42B8317910043B343 /* Heimdall_Infrastructure.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 618A40C22B8317910043B343 /* Heimdall_Infrastructure.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		618A40C72B8317970043B343 /* Heimdall_Kit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618A40C62B8317970043B343 /* Heimdall_Kit.framework */; };
 		618A40C82B8317970043B343 /* Heimdall_Kit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 618A40C62B8317970043B343 /* Heimdall_Kit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		618A40D12B831B940043B343 /* Heimdall_VUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618A40D02B831B940043B343 /* Heimdall_VUITests.swift */; };
+		618A40D62B831BFD0043B343 /* Heimdall_VUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618A40D52B831BFD0043B343 /* Heimdall_VUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,19 +54,19 @@
 
 /* Begin PBXFileReference section */
 		61888FDC2B8302FA00A4BC2A /* Heimdall-V.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heimdall-V.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		61888FDF2B8302FA00A4BC2A /* HeimdallVirtualizationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeimdallVirtualizationApp.swift; sourceTree = "<group>"; };
-		61888FE12B8302FA00A4BC2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		61888FE32B8302FD00A4BC2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		61888FE52B8302FD00A4BC2A /* Heimdall_V.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Heimdall_V.entitlements; sourceTree = "<group>"; };
-		61888FE72B8302FD00A4BC2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Preview Assets.xcassets"; path = "Preview Content/Preview Assets.xcassets"; sourceTree = "<group>"; };
+		61888FDF2B8302FA00A4BC2A /* HeimdallVirtualizationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HeimdallVirtualizationApp.swift; path = "Heimdall-V/Application/Delegates/HeimdallVirtualizationApp.swift"; sourceTree = "<group>"; };
+		61888FE12B8302FA00A4BC2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "Heimdall-V/Presentation/Modules/ContentView.swift"; sourceTree = "<group>"; };
+		61888FE32B8302FD00A4BC2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Heimdall-V/Application/Resources/Assets.xcassets"; sourceTree = "<group>"; };
+		61888FE52B8302FD00A4BC2A /* Heimdall_V.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Heimdall_V.entitlements; path = "Heimdall-V/Application/Configuration/Heimdall_V.entitlements"; sourceTree = "<group>"; };
+		61888FE72B8302FD00A4BC2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Preview Assets.xcassets"; path = "Heimdall-V/Application/Resources/Preview Content/Preview Assets.xcassets"; sourceTree = "<group>"; };
 		61888FED2B8302FD00A4BC2A /* Heimdall-VTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heimdall-VTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		61888FF12B8302FD00A4BC2A /* Heimdall_VTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heimdall_VTests.swift; sourceTree = "<group>"; };
 		61888FF72B8302FD00A4BC2A /* Heimdall-VUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heimdall-VUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		61888FFB2B8302FD00A4BC2A /* Heimdall_VUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heimdall_VUITests.swift; sourceTree = "<group>"; };
-		61888FFD2B8302FD00A4BC2A /* Heimdall_VUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heimdall_VUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		61888FFB2B8302FD00A4BC2A /* Heimdall_VTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Heimdall_VTests.swift; path = "Heimdall-V/Application/Unit Test/Heimdall-VTests/Heimdall_VTests.swift"; sourceTree = "<group>"; };
 		618A40B92B8311A70043B343 /* Heimdall_Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Heimdall_Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		618A40C22B8317910043B343 /* Heimdall_Infrastructure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Heimdall_Infrastructure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		618A40C62B8317970043B343 /* Heimdall_Kit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Heimdall_Kit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		618A40D02B831B940043B343 /* Heimdall_VUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Heimdall_VUITests.swift; path = "Heimdall-V/Application/Unit Test/Heimdall-VUITests/Heimdall_VUITests.swift"; sourceTree = "<group>"; };
+		618A40D52B831BFD0043B343 /* Heimdall_VUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Heimdall_VUITestsLaunchTests.swift; path = "Heimdall-V/Application/Unit Test/Heimdall-VUITests/Heimdall_VUITestsLaunchTests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,8 +119,8 @@
 			isa = PBXGroup;
 			children = (
 				618890C02B830E0C00A4BC2A /* Application */,
-				618890BE2B830DF400A4BC2A /* Data  */,
-				618890BD2B830DE600A4BC2A /* Domain */,
+				618A40CE2B831A0A0043B343 /* Data */,
+				618A40CF2B831A0D0043B343 /* Domain */,
 				618890C12B830E1C00A4BC2A /* Presentation */,
 			);
 			name = "Heimdall-V";
@@ -137,32 +137,18 @@
 		61888FF02B8302FD00A4BC2A /* Heimdall-VTests */ = {
 			isa = PBXGroup;
 			children = (
-				61888FF12B8302FD00A4BC2A /* Heimdall_VTests.swift */,
+				618A40D02B831B940043B343 /* Heimdall_VUITests.swift */,
+				618A40D52B831BFD0043B343 /* Heimdall_VUITestsLaunchTests.swift */,
 			);
-			path = "Heimdall-VTests";
+			name = "Heimdall-VTests";
 			sourceTree = "<group>";
 		};
 		61888FFA2B8302FD00A4BC2A /* Heimdall-VUITests */ = {
 			isa = PBXGroup;
 			children = (
-				61888FFB2B8302FD00A4BC2A /* Heimdall_VUITests.swift */,
-				61888FFD2B8302FD00A4BC2A /* Heimdall_VUITestsLaunchTests.swift */,
+				61888FFB2B8302FD00A4BC2A /* Heimdall_VTests.swift */,
 			);
-			path = "Heimdall-VUITests";
-			sourceTree = "<group>";
-		};
-		618890BD2B830DE600A4BC2A /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Domain;
-			sourceTree = "<group>";
-		};
-		618890BE2B830DF400A4BC2A /* Data  */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "Data ";
+			name = "Heimdall-VUITests";
 			sourceTree = "<group>";
 		};
 		618890C02B830E0C00A4BC2A /* Application */ = {
@@ -197,7 +183,7 @@
 			children = (
 				61888FE52B8302FD00A4BC2A /* Heimdall_V.entitlements */,
 			);
-			path = Configuration;
+			name = Configuration;
 			sourceTree = "<group>";
 		};
 		618890C42B830E4700A4BC2A /* Resources */ = {
@@ -206,7 +192,7 @@
 				61888FE62B8302FD00A4BC2A /* Preview Content */,
 				61888FE32B8302FD00A4BC2A /* Assets.xcassets */,
 			);
-			path = Resources;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		618A40B02B830EA90043B343 /* Delegates */ = {
@@ -214,7 +200,7 @@
 			children = (
 				61888FDF2B8302FA00A4BC2A /* HeimdallVirtualizationApp.swift */,
 			);
-			path = Delegates;
+			name = Delegates;
 			sourceTree = "<group>";
 		};
 		618A40B12B830F440043B343 /* Unit Test */ = {
@@ -223,7 +209,7 @@
 				61888FFA2B8302FD00A4BC2A /* Heimdall-VUITests */,
 				61888FF02B8302FD00A4BC2A /* Heimdall-VTests */,
 			);
-			path = "Unit Test";
+			name = "Unit Test";
 			sourceTree = "<group>";
 		};
 		618A40B82B8311A70043B343 /* Frameworks */ = {
@@ -234,6 +220,20 @@
 				618A40B92B8311A70043B343 /* Heimdall_Utilities.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		618A40CE2B831A0A0043B343 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		618A40CF2B831A0D0043B343 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Domain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,7 +376,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61888FF22B8302FD00A4BC2A /* Heimdall_VTests.swift in Sources */,
+				618A40D12B831B940043B343 /* Heimdall_VUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,8 +384,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61888FFC2B8302FD00A4BC2A /* Heimdall_VUITests.swift in Sources */,
-				61888FFE2B8302FD00A4BC2A /* Heimdall_VUITestsLaunchTests.swift in Sources */,
+				61888FFC2B8302FD00A4BC2A /* Heimdall_VTests.swift in Sources */,
+				618A40D62B831BFD0043B343 /* Heimdall_VUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

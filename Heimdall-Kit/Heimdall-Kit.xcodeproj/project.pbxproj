@@ -11,6 +11,12 @@
 		6188903A2B8308D900A4BC2A /* Heimdall_Kit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6188902F2B8308D800A4BC2A /* Heimdall_Kit.framework */; };
 		6188903F2B8308D900A4BC2A /* Heimdall_KitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6188903E2B8308D900A4BC2A /* Heimdall_KitTests.swift */; };
 		618890402B8308D900A4BC2A /* Heimdall_Kit.h in Headers */ = {isa = PBXBuildFile; fileRef = 618890322B8308D800A4BC2A /* Heimdall_Kit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		618A40EC2B831CF90043B343 /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 618A40E62B831CF80043B343 /* Poppins-SemiBoldItalic.ttf */; };
+		618A40ED2B831CF90043B343 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 618A40E72B831CF80043B343 /* Poppins-SemiBold.ttf */; };
+		618A40EE2B831CF90043B343 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 618A40E82B831CF90043B343 /* Poppins-Bold.ttf */; };
+		618A40EF2B831CF90043B343 /* Poppins-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 618A40E92B831CF90043B343 /* Poppins-RegularItalic.ttf */; };
+		618A40F02B831CF90043B343 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 618A40EA2B831CF90043B343 /* Poppins-Regular.ttf */; };
+		618A40F12B831CF90043B343 /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 618A40EB2B831CF90043B343 /* Poppins-BoldItalic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +35,12 @@
 		618890332B8308D800A4BC2A /* Heimdall_Kit.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Heimdall_Kit.docc; sourceTree = "<group>"; };
 		618890392B8308D900A4BC2A /* Heimdall-KitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heimdall-KitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6188903E2B8308D900A4BC2A /* Heimdall_KitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heimdall_KitTests.swift; sourceTree = "<group>"; };
+		618A40E62B831CF80043B343 /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		618A40E72B831CF80043B343 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		618A40E82B831CF90043B343 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		618A40E92B831CF90043B343 /* Poppins-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-RegularItalic.ttf"; sourceTree = "<group>"; };
+		618A40EA2B831CF90043B343 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		618A40EB2B831CF90043B343 /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +82,7 @@
 		618890312B8308D800A4BC2A /* Heimdall-Kit */ = {
 			isa = PBXGroup;
 			children = (
+				618A40E42B831CE90043B343 /* Resources */,
 				618890BA2B830BDF00A4BC2A /* Configuration  */,
 				618890BB2B830BEB00A4BC2A /* Unit Test */,
 			);
@@ -99,6 +112,27 @@
 				6188903D2B8308D900A4BC2A /* Heimdall-KitTests */,
 			);
 			path = "Unit Test";
+			sourceTree = "<group>";
+		};
+		618A40E42B831CE90043B343 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				618A40E52B831CED0043B343 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		618A40E52B831CED0043B343 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				618A40E82B831CF90043B343 /* Poppins-Bold.ttf */,
+				618A40EB2B831CF90043B343 /* Poppins-BoldItalic.ttf */,
+				618A40EA2B831CF90043B343 /* Poppins-Regular.ttf */,
+				618A40E92B831CF90043B343 /* Poppins-RegularItalic.ttf */,
+				618A40E72B831CF80043B343 /* Poppins-SemiBold.ttf */,
+				618A40E62B831CF80043B343 /* Poppins-SemiBoldItalic.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +227,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				618A40EC2B831CF90043B343 /* Poppins-SemiBoldItalic.ttf in Resources */,
+				618A40EE2B831CF90043B343 /* Poppins-Bold.ttf in Resources */,
+				618A40ED2B831CF90043B343 /* Poppins-SemiBold.ttf in Resources */,
+				618A40F12B831CF90043B343 /* Poppins-BoldItalic.ttf in Resources */,
+				618A40EF2B831CF90043B343 /* Poppins-RegularItalic.ttf in Resources */,
+				618A40F02B831CF90043B343 /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
