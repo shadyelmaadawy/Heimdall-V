@@ -14,6 +14,10 @@
 		61888FF22B8302FD00A4BC2A /* Heimdall_VTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61888FF12B8302FD00A4BC2A /* Heimdall_VTests.swift */; };
 		61888FFC2B8302FD00A4BC2A /* Heimdall_VUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61888FFB2B8302FD00A4BC2A /* Heimdall_VUITests.swift */; };
 		61888FFE2B8302FD00A4BC2A /* Heimdall_VUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61888FFD2B8302FD00A4BC2A /* Heimdall_VUITestsLaunchTests.swift */; };
+		618A40C32B8317910043B343 /* Heimdall_Infrastructure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618A40C22B8317910043B343 /* Heimdall_Infrastructure.framework */; };
+		618A40C42B8317910043B343 /* Heimdall_Infrastructure.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 618A40C22B8317910043B343 /* Heimdall_Infrastructure.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		618A40C72B8317970043B343 /* Heimdall_Kit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618A40C62B8317970043B343 /* Heimdall_Kit.framework */; };
+		618A40C82B8317970043B343 /* Heimdall_Kit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 618A40C62B8317970043B343 /* Heimdall_Kit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +37,21 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		618A40C52B8317910043B343 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				618A40C42B8317910043B343 /* Heimdall_Infrastructure.framework in Embed Frameworks */,
+				618A40C82B8317970043B343 /* Heimdall_Kit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		61888FDC2B8302FA00A4BC2A /* Heimdall-V.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heimdall-V.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61888FDF2B8302FA00A4BC2A /* HeimdallVirtualizationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeimdallVirtualizationApp.swift; sourceTree = "<group>"; };
@@ -46,6 +65,8 @@
 		61888FFB2B8302FD00A4BC2A /* Heimdall_VUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heimdall_VUITests.swift; sourceTree = "<group>"; };
 		61888FFD2B8302FD00A4BC2A /* Heimdall_VUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heimdall_VUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		618A40B92B8311A70043B343 /* Heimdall_Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Heimdall_Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		618A40C22B8317910043B343 /* Heimdall_Infrastructure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Heimdall_Infrastructure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		618A40C62B8317970043B343 /* Heimdall_Kit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Heimdall_Kit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				618A40C32B8317910043B343 /* Heimdall_Infrastructure.framework in Frameworks */,
+				618A40C72B8317970043B343 /* Heimdall_Kit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +229,8 @@
 		618A40B82B8311A70043B343 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				618A40C62B8317970043B343 /* Heimdall_Kit.framework */,
+				618A40C22B8317910043B343 /* Heimdall_Infrastructure.framework */,
 				618A40B92B8311A70043B343 /* Heimdall_Utilities.framework */,
 			);
 			name = Frameworks;
@@ -221,6 +246,7 @@
 				61888FD82B8302FA00A4BC2A /* Sources */,
 				61888FD92B8302FA00A4BC2A /* Frameworks */,
 				61888FDA2B8302FA00A4BC2A /* Resources */,
+				618A40C52B8317910043B343 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -511,6 +537,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Heimdall-V";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -519,8 +546,7 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -550,6 +576,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = "Heimdall-V";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -558,8 +585,7 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";

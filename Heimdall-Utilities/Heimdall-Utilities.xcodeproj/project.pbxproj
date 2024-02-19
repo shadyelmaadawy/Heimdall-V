@@ -74,9 +74,9 @@
 		6188909D2B830A5F00A4BC2A /* Heimdall-Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				618890B72B830B9600A4BC2A /* Unit Test */,
 				618890B62B830B2B00A4BC2A /* Configuration  */,
 				618890B52B830B0300A4BC2A /* Data Structures */,
+				618890B72B830B9600A4BC2A /* Unit Test */,
 			);
 			path = "Heimdall-Utilities";
 			sourceTree = "<group>";

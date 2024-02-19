@@ -2,13 +2,13 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Heimdall-Utilities/Heimdall-Utilities.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:Heimdall-Infrastructure/Heimdall-Infrastructure.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Heimdall-Kit/Heimdall-Kit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Heimdall-Utilities/Heimdall-Utilities.xcodeproj">
    </FileRef>
    <FileRef
       location = "container:Heimdall-V.xcodeproj">
