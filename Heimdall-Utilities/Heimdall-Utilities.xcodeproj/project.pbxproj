@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		618890A02B830A5F00A4BC2A /* Heimdall_Utilities.docc in Sources */ = {isa = PBXBuildFile; fileRef = 6188909F2B830A5F00A4BC2A /* Heimdall_Utilities.docc */; };
+		618890A62B830A6000A4BC2A /* Heimdall_Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6188909B2B830A5F00A4BC2A /* Heimdall_Utilities.framework */; };
+		618890AB2B830A6000A4BC2A /* Heimdall_UtilitiesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618890AA2B830A6000A4BC2A /* Heimdall_UtilitiesTests.swift */; };
+		618890AC2B830A6000A4BC2A /* Heimdall_Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 6188909E2B830A5F00A4BC2A /* Heimdall_Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		618A40B32B830F740043B343 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618A40B22B830F740043B343 /* LinkedList.swift */; };
+		618A40B72B830F930043B343 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618A40B62B830F930043B343 /* Node.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		618890A72B830A6000A4BC2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 618890922B830A5F00A4BC2A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6188909A2B830A5F00A4BC2A;
+			remoteInfo = "Heimdall-Utilities";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6188909B2B830A5F00A4BC2A /* Heimdall_Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Heimdall_Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6188909E2B830A5F00A4BC2A /* Heimdall_Utilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Heimdall_Utilities.h; sourceTree = "<group>"; };
+		6188909F2B830A5F00A4BC2A /* Heimdall_Utilities.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Heimdall_Utilities.docc; sourceTree = "<group>"; };
+		618890A52B830A6000A4BC2A /* Heimdall-UtilitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heimdall-UtilitiesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		618890AA2B830A6000A4BC2A /* Heimdall_UtilitiesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heimdall_UtilitiesTests.swift; sourceTree = "<group>"; };
+		618A40B22B830F740043B343 /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		618A40B62B830F930043B343 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		618890982B830A5F00A4BC2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		618890A22B830A6000A4BC2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618890A62B830A6000A4BC2A /* Heimdall_Utilities.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		618890912B830A5F00A4BC2A = {
+			isa = PBXGroup;
+			children = (
+				6188909D2B830A5F00A4BC2A /* Heimdall-Utilities */,
+				6188909C2B830A5F00A4BC2A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6188909C2B830A5F00A4BC2A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6188909B2B830A5F00A4BC2A /* Heimdall_Utilities.framework */,
+				618890A52B830A6000A4BC2A /* Heimdall-UtilitiesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6188909D2B830A5F00A4BC2A /* Heimdall-Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				618890B72B830B9600A4BC2A /* Unit Test */,
+				618890B62B830B2B00A4BC2A /* Configuration  */,
+				618890B52B830B0300A4BC2A /* Data Structures */,
+			);
+			path = "Heimdall-Utilities";
+			sourceTree = "<group>";
+		};
+		618890A92B830A6000A4BC2A /* Heimdall-UtilitiesTests */ = {
+			isa = PBXGroup;
+			children = (
+				618890AA2B830A6000A4BC2A /* Heimdall_UtilitiesTests.swift */,
+			);
+			path = "Heimdall-UtilitiesTests";
+			sourceTree = "<group>";
+		};
+		618890B52B830B0300A4BC2A /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				618A40B42B830F7D0043B343 /* Linked List */,
+			);
+			path = "Data Structures";
+			sourceTree = "<group>";
+		};
+		618890B62B830B2B00A4BC2A /* Configuration  */ = {
+			isa = PBXGroup;
+			children = (
+				6188909F2B830A5F00A4BC2A /* Heimdall_Utilities.docc */,
+				6188909E2B830A5F00A4BC2A /* Heimdall_Utilities.h */,
+			);
+			path = "Configuration ";
+			sourceTree = "<group>";
+		};
+		618890B72B830B9600A4BC2A /* Unit Test */ = {
+			isa = PBXGroup;
+			children = (
+				618890A92B830A6000A4BC2A /* Heimdall-UtilitiesTests */,
+			);
+			path = "Unit Test";
+			sourceTree = "<group>";
+		};
+		618A40B42B830F7D0043B343 /* Linked List */ = {
+			isa = PBXGroup;
+			children = (
+				618A40B22B830F740043B343 /* LinkedList.swift */,
+				618A40B62B830F930043B343 /* Node.swift */,
+			);
+			path = "Linked List";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		618890962B830A5F00A4BC2A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618890AC2B830A6000A4BC2A /* Heimdall_Utilities.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6188909A2B830A5F00A4BC2A /* Heimdall-Utilities */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 618890AF2B830A6000A4BC2A /* Build configuration list for PBXNativeTarget "Heimdall-Utilities" */;
+			buildPhases = (
+				618890962B830A5F00A4BC2A /* Headers */,
+				618890972B830A5F00A4BC2A /* Sources */,
+				618890982B830A5F00A4BC2A /* Frameworks */,
+				618890992B830A5F00A4BC2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Heimdall-Utilities";
+			productName = "Heimdall-Utilities";
+			productReference = 6188909B2B830A5F00A4BC2A /* Heimdall_Utilities.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		618890A42B830A6000A4BC2A /* Heimdall-UtilitiesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 618890B22B830A6000A4BC2A /* Build configuration list for PBXNativeTarget "Heimdall-UtilitiesTests" */;
+			buildPhases = (
+				618890A12B830A6000A4BC2A /* Sources */,
+				618890A22B830A6000A4BC2A /* Frameworks */,
+				618890A32B830A6000A4BC2A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				618890A82B830A6000A4BC2A /* PBXTargetDependency */,
+			);
+			name = "Heimdall-UtilitiesTests";
+			productName = "Heimdall-UtilitiesTests";
+			productReference = 618890A52B830A6000A4BC2A /* Heimdall-UtilitiesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		618890922B830A5F00A4BC2A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					6188909A2B830A5F00A4BC2A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					618890A42B830A6000A4BC2A = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 618890952B830A5F00A4BC2A /* Build configuration list for PBXProject "Heimdall-Utilities" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 618890912B830A5F00A4BC2A;
+			productRefGroup = 6188909C2B830A5F00A4BC2A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6188909A2B830A5F00A4BC2A /* Heimdall-Utilities */,
+				618890A42B830A6000A4BC2A /* Heimdall-UtilitiesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		618890992B830A5F00A4BC2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		618890A32B830A6000A4BC2A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		618890972B830A5F00A4BC2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618A40B72B830F930043B343 /* Node.swift in Sources */,
+				618A40B32B830F740043B343 /* LinkedList.swift in Sources */,
+				618890A02B830A5F00A4BC2A /* Heimdall_Utilities.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		618890A12B830A6000A4BC2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618890AB2B830A6000A4BC2A /* Heimdall_UtilitiesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		618890A82B830A6000A4BC2A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6188909A2B830A5F00A4BC2A /* Heimdall-Utilities */;
+			targetProxy = 618890A72B830A6000A4BC2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		618890AD2B830A6000A4BC2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		618890AE2B830A6000A4BC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		618890B02B830A6000A4BC2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Y7A8MFWTQP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "shadudiix.com.Heimdall-Utilities";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		618890B12B830A6000A4BC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = Y7A8MFWTQP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "shadudiix.com.Heimdall-Utilities";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		618890B32B830A6000A4BC2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y7A8MFWTQP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shadudiix.com.Heimdall-UtilitiesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		618890B42B830A6000A4BC2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y7A8MFWTQP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "shadudiix.com.Heimdall-UtilitiesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		618890952B830A5F00A4BC2A /* Build configuration list for PBXProject "Heimdall-Utilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618890AD2B830A6000A4BC2A /* Debug */,
+				618890AE2B830A6000A4BC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		618890AF2B830A6000A4BC2A /* Build configuration list for PBXNativeTarget "Heimdall-Utilities" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618890B02B830A6000A4BC2A /* Debug */,
+				618890B12B830A6000A4BC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		618890B22B830A6000A4BC2A /* Build configuration list for PBXNativeTarget "Heimdall-UtilitiesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				618890B32B830A6000A4BC2A /* Debug */,
+				618890B42B830A6000A4BC2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 618890922B830A5F00A4BC2A /* Project object */;
+}
