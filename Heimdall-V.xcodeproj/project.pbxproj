@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		617D1DEB2B8464CE00A1B30A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61888FE72B8302FD00A4BC2A /* Preview Assets.xcassets */; };
+		617D1DF82B84650100A1B30A /* Heimdall_Kit.framework in Resources */ = {isa = PBXBuildFile; fileRef = 618A40C62B8317970043B343 /* Heimdall_Kit.framework */; };
 		61888FE02B8302FA00A4BC2A /* HeimdallVirtualizationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61888FDF2B8302FA00A4BC2A /* HeimdallVirtualizationApp.swift */; };
 		61888FE22B8302FA00A4BC2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61888FE12B8302FA00A4BC2A /* ContentView.swift */; };
 		61888FE42B8302FD00A4BC2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61888FE32B8302FD00A4BC2A /* Assets.xcassets */; };
-		61888FE82B8302FD00A4BC2A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61888FE72B8302FD00A4BC2A /* Preview Assets.xcassets */; };
 		61888FFC2B8302FD00A4BC2A /* Heimdall_VTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61888FFB2B8302FD00A4BC2A /* Heimdall_VTests.swift */; };
 		618A40C32B8317910043B343 /* Heimdall_Infrastructure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618A40C22B8317910043B343 /* Heimdall_Infrastructure.framework */; };
 		618A40C42B8317910043B343 /* Heimdall_Infrastructure.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 618A40C22B8317910043B343 /* Heimdall_Infrastructure.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -67,6 +68,7 @@
 		618A40C62B8317970043B343 /* Heimdall_Kit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Heimdall_Kit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		618A40D02B831B940043B343 /* Heimdall_VUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Heimdall_VUITests.swift; path = "Heimdall-V/Application/Unit Test/Heimdall-VUITests/Heimdall_VUITests.swift"; sourceTree = "<group>"; };
 		618A40D52B831BFD0043B343 /* Heimdall_VUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Heimdall_VUITestsLaunchTests.swift; path = "Heimdall-V/Application/Unit Test/Heimdall-VUITests/Heimdall_VUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		61F606AC2B845760007B8EB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Heimdall-V/Application/Configuration/Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +142,7 @@
 				618A40D02B831B940043B343 /* Heimdall_VUITests.swift */,
 				618A40D52B831BFD0043B343 /* Heimdall_VUITestsLaunchTests.swift */,
 			);
-			name = "Heimdall-VTests";
+			path = "Heimdall-VTests";
 			sourceTree = "<group>";
 		};
 		61888FFA2B8302FD00A4BC2A /* Heimdall-VUITests */ = {
@@ -148,7 +150,7 @@
 			children = (
 				61888FFB2B8302FD00A4BC2A /* Heimdall_VTests.swift */,
 			);
-			name = "Heimdall-VUITests";
+			path = "Heimdall-VUITests";
 			sourceTree = "<group>";
 		};
 		618890C02B830E0C00A4BC2A /* Application */ = {
@@ -181,6 +183,7 @@
 		618890C32B830E3700A4BC2A /* Configuration */ = {
 			isa = PBXGroup;
 			children = (
+				61F606AC2B845760007B8EB3 /* Info.plist */,
 				61888FE52B8302FD00A4BC2A /* Heimdall_V.entitlements */,
 			);
 			name = Configuration;
@@ -210,6 +213,7 @@
 				61888FF02B8302FD00A4BC2A /* Heimdall-VTests */,
 			);
 			name = "Unit Test";
+			path = "Heimdall-V/Application/Unit Test";
 			sourceTree = "<group>";
 		};
 		618A40B82B8311A70043B343 /* Frameworks */ = {
@@ -227,6 +231,7 @@
 			children = (
 			);
 			name = Data;
+			path = "Heimdall-V/Data";
 			sourceTree = "<group>";
 		};
 		618A40CF2B831A0D0043B343 /* Domain */ = {
@@ -234,6 +239,7 @@
 			children = (
 			);
 			name = Domain;
+			path = "Heimdall-V/Domain";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,7 +347,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61888FE82B8302FD00A4BC2A /* Preview Assets.xcassets in Resources */,
+				617D1DF82B84650100A1B30A /* Heimdall_Kit.framework in Resources */,
+				617D1DEB2B8464CE00A1B30A /* Preview Assets.xcassets in Resources */,
 				61888FE42B8302FD00A4BC2A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -536,6 +543,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Heimdall-V/Application/Configuration/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Heimdall-V";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -575,6 +583,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Heimdall-V/Application/Configuration/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Heimdall-V";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
