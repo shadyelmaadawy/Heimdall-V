@@ -16,24 +16,24 @@ public struct BaseLabel: View {
         case label
         case primary
         case secondary
-        case tertiary
-        
         var color: Color {
             
             switch(self)
             {
-                case .primary:
+                case .label:
                     return .white
-                default:
-                    return .accent
+                case .primary:
+                    return .primary
+                case .secondary:
+                    return .secondary
             }
         }
 
     }
-    
+
     // MARK: - Properties
     
-    public let text: String
+    private let text: String
 
     // MARK: - Initialization
     

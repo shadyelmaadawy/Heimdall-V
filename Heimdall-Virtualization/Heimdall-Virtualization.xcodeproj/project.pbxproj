@@ -7,197 +7,153 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6188907C2B830A1000A4BC2A /* Heimdall_Infrastructure.docc in Sources */ = {isa = PBXBuildFile; fileRef = 6188907B2B830A1000A4BC2A /* Heimdall_Infrastructure.docc */; };
-		618890822B830A1100A4BC2A /* Heimdall_Infrastructure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618890772B830A1000A4BC2A /* Heimdall_Infrastructure.framework */; };
-		618890872B830A1100A4BC2A /* Heimdall_InfrastructureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618890862B830A1100A4BC2A /* Heimdall_InfrastructureTests.swift */; };
-		618890882B830A1100A4BC2A /* Heimdall_Infrastructure.h in Headers */ = {isa = PBXBuildFile; fileRef = 6188907A2B830A1000A4BC2A /* Heimdall_Infrastructure.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		618A40BF2B8317090043B343 /* Heimdall_Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618A40BE2B8317090043B343 /* Heimdall_Utilities.framework */; };
-		618A40C02B8317090043B343 /* Heimdall_Utilities.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 618A40BE2B8317090043B343 /* Heimdall_Utilities.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		61CE69C42B86F15600AB83D7 /* Heimdall_Virtualization.docc in Sources */ = {isa = PBXBuildFile; fileRef = 61CE69C32B86F15600AB83D7 /* Heimdall_Virtualization.docc */; };
+		61CE69CA2B86F15700AB83D7 /* Heimdall_Virtualization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CE69BF2B86F15600AB83D7 /* Heimdall_Virtualization.framework */; };
+		61CE69CF2B86F15700AB83D7 /* Heimdall_VirtualizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CE69CE2B86F15700AB83D7 /* Heimdall_VirtualizationTests.swift */; };
+		61CE69D02B86F15700AB83D7 /* Heimdall_Virtualization.h in Headers */ = {isa = PBXBuildFile; fileRef = 61CE69C22B86F15600AB83D7 /* Heimdall_Virtualization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		618890832B830A1100A4BC2A /* PBXContainerItemProxy */ = {
+		61CE69CB2B86F15700AB83D7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6188906E2B830A1000A4BC2A /* Project object */;
+			containerPortal = 61CE69B62B86F15600AB83D7 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 618890762B830A1000A4BC2A;
-			remoteInfo = "Heimdall-Infrastructure";
+			remoteGlobalIDString = 61CE69BE2B86F15600AB83D7;
+			remoteInfo = "Heimdall-Virtualization";
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		618A40C12B8317090043B343 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				618A40C02B8317090043B343 /* Heimdall_Utilities.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		618890772B830A1000A4BC2A /* Heimdall_Infrastructure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Heimdall_Infrastructure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6188907A2B830A1000A4BC2A /* Heimdall_Infrastructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Heimdall_Infrastructure.h; sourceTree = "<group>"; };
-		6188907B2B830A1000A4BC2A /* Heimdall_Infrastructure.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Heimdall_Infrastructure.docc; sourceTree = "<group>"; };
-		618890812B830A1100A4BC2A /* Heimdall-InfrastructureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heimdall-InfrastructureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		618890862B830A1100A4BC2A /* Heimdall_InfrastructureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heimdall_InfrastructureTests.swift; sourceTree = "<group>"; };
-		618A40BE2B8317090043B343 /* Heimdall_Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Heimdall_Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CE69BF2B86F15600AB83D7 /* Heimdall_Virtualization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Heimdall_Virtualization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CE69C22B86F15600AB83D7 /* Heimdall_Virtualization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Heimdall_Virtualization.h; sourceTree = "<group>"; };
+		61CE69C32B86F15600AB83D7 /* Heimdall_Virtualization.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Heimdall_Virtualization.docc; sourceTree = "<group>"; };
+		61CE69C92B86F15700AB83D7 /* Heimdall-VirtualizationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Heimdall-VirtualizationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CE69CE2B86F15700AB83D7 /* Heimdall_VirtualizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heimdall_VirtualizationTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		618890742B830A1000A4BC2A /* Frameworks */ = {
+		61CE69BC2B86F15600AB83D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				618A40BF2B8317090043B343 /* Heimdall_Utilities.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6188907E2B830A1100A4BC2A /* Frameworks */ = {
+		61CE69C62B86F15700AB83D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				618890822B830A1100A4BC2A /* Heimdall_Infrastructure.framework in Frameworks */,
+				61CE69CA2B86F15700AB83D7 /* Heimdall_Virtualization.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6188906D2B830A1000A4BC2A = {
+		61CE69B52B86F15600AB83D7 = {
 			isa = PBXGroup;
 			children = (
-				618890792B830A1000A4BC2A /* Heimdall-Infrastructure */,
-				618890782B830A1000A4BC2A /* Products */,
-				618A40BD2B8317090043B343 /* Frameworks */,
+				61CE69C12B86F15600AB83D7 /* Heimdall-Virtualization */,
+				61CE69CD2B86F15700AB83D7 /* Heimdall-VirtualizationTests */,
+				61CE69C02B86F15600AB83D7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		618890782B830A1000A4BC2A /* Products */ = {
+		61CE69C02B86F15600AB83D7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				618890772B830A1000A4BC2A /* Heimdall_Infrastructure.framework */,
-				618890812B830A1100A4BC2A /* Heimdall-InfrastructureTests.xctest */,
+				61CE69BF2B86F15600AB83D7 /* Heimdall_Virtualization.framework */,
+				61CE69C92B86F15700AB83D7 /* Heimdall-VirtualizationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		618890792B830A1000A4BC2A /* Heimdall-Infrastructure */ = {
+		61CE69C12B86F15600AB83D7 /* Heimdall-Virtualization */ = {
 			isa = PBXGroup;
 			children = (
-				618890B92B830BD200A4BC2A /* Configuration  */,
-				618890B82B830BC800A4BC2A /* Unit Test */,
+				61CE69C22B86F15600AB83D7 /* Heimdall_Virtualization.h */,
+				61CE69C32B86F15600AB83D7 /* Heimdall_Virtualization.docc */,
 			);
-			path = "Heimdall-Infrastructure";
+			path = "Heimdall-Virtualization";
 			sourceTree = "<group>";
 		};
-		618890852B830A1100A4BC2A /* Heimdall-InfrastructureTests */ = {
+		61CE69CD2B86F15700AB83D7 /* Heimdall-VirtualizationTests */ = {
 			isa = PBXGroup;
 			children = (
-				618890862B830A1100A4BC2A /* Heimdall_InfrastructureTests.swift */,
+				61CE69CE2B86F15700AB83D7 /* Heimdall_VirtualizationTests.swift */,
 			);
-			path = "Heimdall-InfrastructureTests";
-			sourceTree = "<group>";
-		};
-		618890B82B830BC800A4BC2A /* Unit Test */ = {
-			isa = PBXGroup;
-			children = (
-				618890852B830A1100A4BC2A /* Heimdall-InfrastructureTests */,
-			);
-			path = "Unit Test";
-			sourceTree = "<group>";
-		};
-		618890B92B830BD200A4BC2A /* Configuration  */ = {
-			isa = PBXGroup;
-			children = (
-				6188907A2B830A1000A4BC2A /* Heimdall_Infrastructure.h */,
-				6188907B2B830A1000A4BC2A /* Heimdall_Infrastructure.docc */,
-			);
-			path = "Configuration ";
-			sourceTree = "<group>";
-		};
-		618A40BD2B8317090043B343 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				618A40BE2B8317090043B343 /* Heimdall_Utilities.framework */,
-			);
-			name = Frameworks;
+			path = "Heimdall-VirtualizationTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		618890722B830A1000A4BC2A /* Headers */ = {
+		61CE69BA2B86F15600AB83D7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				618890882B830A1100A4BC2A /* Heimdall_Infrastructure.h in Headers */,
+				61CE69D02B86F15700AB83D7 /* Heimdall_Virtualization.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		618890762B830A1000A4BC2A /* Heimdall-Infrastructure */ = {
+		61CE69BE2B86F15600AB83D7 /* Heimdall-Virtualization */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6188908B2B830A1100A4BC2A /* Build configuration list for PBXNativeTarget "Heimdall-Infrastructure" */;
+			buildConfigurationList = 61CE69D32B86F15700AB83D7 /* Build configuration list for PBXNativeTarget "Heimdall-Virtualization" */;
 			buildPhases = (
-				618890722B830A1000A4BC2A /* Headers */,
-				618890732B830A1000A4BC2A /* Sources */,
-				618890742B830A1000A4BC2A /* Frameworks */,
-				618890752B830A1000A4BC2A /* Resources */,
-				618A40C12B8317090043B343 /* Embed Frameworks */,
+				61CE69BA2B86F15600AB83D7 /* Headers */,
+				61CE69BB2B86F15600AB83D7 /* Sources */,
+				61CE69BC2B86F15600AB83D7 /* Frameworks */,
+				61CE69BD2B86F15600AB83D7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Heimdall-Infrastructure";
-			productName = "Heimdall-Infrastructure";
-			productReference = 618890772B830A1000A4BC2A /* Heimdall_Infrastructure.framework */;
+			name = "Heimdall-Virtualization";
+			productName = "Heimdall-Virtualization";
+			productReference = 61CE69BF2B86F15600AB83D7 /* Heimdall_Virtualization.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		618890802B830A1100A4BC2A /* Heimdall-InfrastructureTests */ = {
+		61CE69C82B86F15700AB83D7 /* Heimdall-VirtualizationTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6188908E2B830A1100A4BC2A /* Build configuration list for PBXNativeTarget "Heimdall-InfrastructureTests" */;
+			buildConfigurationList = 61CE69D62B86F15700AB83D7 /* Build configuration list for PBXNativeTarget "Heimdall-VirtualizationTests" */;
 			buildPhases = (
-				6188907D2B830A1100A4BC2A /* Sources */,
-				6188907E2B830A1100A4BC2A /* Frameworks */,
-				6188907F2B830A1100A4BC2A /* Resources */,
+				61CE69C52B86F15700AB83D7 /* Sources */,
+				61CE69C62B86F15700AB83D7 /* Frameworks */,
+				61CE69C72B86F15700AB83D7 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				618890842B830A1100A4BC2A /* PBXTargetDependency */,
+				61CE69CC2B86F15700AB83D7 /* PBXTargetDependency */,
 			);
-			name = "Heimdall-InfrastructureTests";
-			productName = "Heimdall-InfrastructureTests";
-			productReference = 618890812B830A1100A4BC2A /* Heimdall-InfrastructureTests.xctest */;
+			name = "Heimdall-VirtualizationTests";
+			productName = "Heimdall-VirtualizationTests";
+			productReference = 61CE69C92B86F15700AB83D7 /* Heimdall-VirtualizationTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6188906E2B830A1000A4BC2A /* Project object */ = {
+		61CE69B62B86F15600AB83D7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
-					618890762B830A1000A4BC2A = {
+					61CE69BE2B86F15600AB83D7 = {
 						CreatedOnToolsVersion = 15.2;
 					};
-					618890802B830A1100A4BC2A = {
+					61CE69C82B86F15700AB83D7 = {
 						CreatedOnToolsVersion = 15.2;
 					};
 				};
 			};
-			buildConfigurationList = 618890712B830A1000A4BC2A /* Build configuration list for PBXProject "Heimdall-Infrastructure" */;
+			buildConfigurationList = 61CE69B92B86F15600AB83D7 /* Build configuration list for PBXProject "Heimdall-Virtualization" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -205,26 +161,26 @@
 				en,
 				Base,
 			);
-			mainGroup = 6188906D2B830A1000A4BC2A;
-			productRefGroup = 618890782B830A1000A4BC2A /* Products */;
+			mainGroup = 61CE69B52B86F15600AB83D7;
+			productRefGroup = 61CE69C02B86F15600AB83D7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				618890762B830A1000A4BC2A /* Heimdall-Infrastructure */,
-				618890802B830A1100A4BC2A /* Heimdall-InfrastructureTests */,
+				61CE69BE2B86F15600AB83D7 /* Heimdall-Virtualization */,
+				61CE69C82B86F15700AB83D7 /* Heimdall-VirtualizationTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		618890752B830A1000A4BC2A /* Resources */ = {
+		61CE69BD2B86F15600AB83D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6188907F2B830A1100A4BC2A /* Resources */ = {
+		61CE69C72B86F15700AB83D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -234,34 +190,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		618890732B830A1000A4BC2A /* Sources */ = {
+		61CE69BB2B86F15600AB83D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6188907C2B830A1000A4BC2A /* Heimdall_Infrastructure.docc in Sources */,
+				61CE69C42B86F15600AB83D7 /* Heimdall_Virtualization.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6188907D2B830A1100A4BC2A /* Sources */ = {
+		61CE69C52B86F15700AB83D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				618890872B830A1100A4BC2A /* Heimdall_InfrastructureTests.swift in Sources */,
+				61CE69CF2B86F15700AB83D7 /* Heimdall_VirtualizationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		618890842B830A1100A4BC2A /* PBXTargetDependency */ = {
+		61CE69CC2B86F15700AB83D7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 618890762B830A1000A4BC2A /* Heimdall-Infrastructure */;
-			targetProxy = 618890832B830A1100A4BC2A /* PBXContainerItemProxy */;
+			target = 61CE69BE2B86F15600AB83D7 /* Heimdall-Virtualization */;
+			targetProxy = 61CE69CB2B86F15700AB83D7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		618890892B830A1100A4BC2A /* Debug */ = {
+		61CE69D12B86F15700AB83D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -314,9 +270,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -328,7 +283,7 @@
 			};
 			name = Debug;
 		};
-		6188908A2B830A1100A4BC2A /* Release */ = {
+		61CE69D22B86F15700AB83D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -375,9 +330,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -387,7 +341,7 @@
 			};
 			name = Release;
 		};
-		6188908C2B830A1100A4BC2A /* Debug */ = {
+		61CE69D42B86F15700AB83D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -402,28 +356,23 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = "shadudiix.com.Heimdall-Infrastructure";
+				PRODUCT_BUNDLE_IDENTIFIER = "shadudiix.com.Heimdall-Virtualization";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		6188908D2B830A1100A4BC2A /* Release */ = {
+		61CE69D52B86F15700AB83D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -438,96 +387,83 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
 				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
-				PRODUCT_BUNDLE_IDENTIFIER = "shadudiix.com.Heimdall-Infrastructure";
+				PRODUCT_BUNDLE_IDENTIFIER = "shadudiix.com.Heimdall-Virtualization";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		6188908F2B830A1100A4BC2A /* Debug */ = {
+		61CE69D72B86F15700AB83D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y7A8MFWTQP;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "shadudiix.com.Heimdall-InfrastructureTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "shadudiix.com.Heimdall-VirtualizationTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		618890902B830A1100A4BC2A /* Release */ = {
+		61CE69D82B86F15700AB83D7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Y7A8MFWTQP;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "shadudiix.com.Heimdall-InfrastructureTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "shadudiix.com.Heimdall-VirtualizationTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		618890712B830A1000A4BC2A /* Build configuration list for PBXProject "Heimdall-Infrastructure" */ = {
+		61CE69B92B86F15600AB83D7 /* Build configuration list for PBXProject "Heimdall-Virtualization" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				618890892B830A1100A4BC2A /* Debug */,
-				6188908A2B830A1100A4BC2A /* Release */,
+				61CE69D12B86F15700AB83D7 /* Debug */,
+				61CE69D22B86F15700AB83D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6188908B2B830A1100A4BC2A /* Build configuration list for PBXNativeTarget "Heimdall-Infrastructure" */ = {
+		61CE69D32B86F15700AB83D7 /* Build configuration list for PBXNativeTarget "Heimdall-Virtualization" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6188908C2B830A1100A4BC2A /* Debug */,
-				6188908D2B830A1100A4BC2A /* Release */,
+				61CE69D42B86F15700AB83D7 /* Debug */,
+				61CE69D52B86F15700AB83D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6188908E2B830A1100A4BC2A /* Build configuration list for PBXNativeTarget "Heimdall-InfrastructureTests" */ = {
+		61CE69D62B86F15700AB83D7 /* Build configuration list for PBXNativeTarget "Heimdall-VirtualizationTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6188908F2B830A1100A4BC2A /* Debug */,
-				618890902B830A1100A4BC2A /* Release */,
+				61CE69D72B86F15700AB83D7 /* Debug */,
+				61CE69D82B86F15700AB83D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6188906E2B830A1000A4BC2A /* Project object */;
+	rootObject = 61CE69B62B86F15600AB83D7 /* Project object */;
 }

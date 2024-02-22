@@ -22,7 +22,11 @@ public extension Font {
     }
 
     /// Supported weights for custom font
-    enum FontsWeights: String {
+    enum FontsWeights: String, Identifiable {
+        
+        public var id: String {
+            return self.rawValue
+        }
         
         case regular = "Regular"
         case regularItalic = "RegularItalic"
@@ -41,7 +45,7 @@ public extension Font {
     /// - Returns: Required font
     internal static func getFont(_ fontWeight: FontsWeights, with textStyle: Font.TextStyle) -> Font {
      
-        let resourcesName: String = "\(defaultFamilyName)-\(fontWeight.rawValue)"
+        let resourcesName: String = "\(defaultFamilyName)-\(fontWeight.id)"
         guard let fontSize = textStyleSizesDictionary[textStyle]
               else {
             fatalError("Font size not found \(resourcesName)")

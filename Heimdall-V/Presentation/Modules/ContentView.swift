@@ -20,7 +20,7 @@ struct ContentView: View {
             BaseButton.init(text: "Hello-World!;") {
                 print("Hello-World!;")
             }
-            
+
             BaseLabel.init(text: "Hello-World!;")
                 .with(weight: .regular, textStyle: .body)
                 .set(scheme: .label)
@@ -42,6 +42,44 @@ struct ContentView: View {
         .padding()
     }
 }
+
+struct ContentView1: View {
+    var body: some View {
+        
+        VStack {
+            
+            BaseButton.init(text: "Hello-World!;") {
+                print("Hello-World!;")
+            }
+            
+            BaseLabel.init(text: "Hello-World!;")
+                .with(weight: .semiBoldItalic, textStyle: .body)
+                .set(scheme: .label)
+
+            Text("Hello, world!")
+        }
+        .padding()
+    }
+}
+
+struct ContentView2: View {
+    var body: some View {
+        
+        VStack {
+            
+            BaseButton.init(text: "Hello-World!;") {
+                print("Hello-World!;")
+            }
+            
+            BaseLabel.init(text: "Hello-World!;")
+                .with(weight: .semiBoldItalic, textStyle: .body)
+                .set(scheme: .label)
+        }
+        .padding()
+    }
+}
+
+
 
 #Preview {
     ContentView()

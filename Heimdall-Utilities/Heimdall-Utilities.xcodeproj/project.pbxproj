@@ -92,6 +92,7 @@
 		618890B52B830B0300A4BC2A /* Data Structures */ = {
 			isa = PBXGroup;
 			children = (
+				61CE69D92B86F1C100AB83D7 /* Tree */,
 				618A40B42B830F7D0043B343 /* Linked List */,
 			);
 			path = "Data Structures";
@@ -121,6 +122,13 @@
 				618A40B62B830F930043B343 /* Node.swift */,
 			);
 			path = "Linked List";
+			sourceTree = "<group>";
+		};
+		61CE69D92B86F1C100AB83D7 /* Tree */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tree;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -411,11 +419,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "shadudiix.com.Heimdall-Utilities";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = macosx;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -447,11 +454,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "shadudiix.com.Heimdall-Utilities";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = macosx;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

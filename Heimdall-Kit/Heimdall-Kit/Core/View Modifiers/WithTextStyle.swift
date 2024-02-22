@@ -1,11 +1,12 @@
 //
-//  BaseLabel+ViewModifiers.swift
+//  WithTextStyle.swift
 //  Heimdall-Kit
 //
-//  Created by Shady El-Maadawy on 20/02/2024.
+//  Created by Shady El-Maadawy on 22/02/2024.
 //
 
 import SwiftUI
+import Foundation
 
 internal struct WithTextStyle: ViewModifier {
     
@@ -27,26 +28,6 @@ internal struct WithTextStyle: ViewModifier {
             .font(
                 .getFont(weight, with: textStyle)
             )
-    }
-    
-}
-
-internal struct WithLabelColorScheme: ViewModifier {
-    
-    // MARK: - Properties
-    
-    private let scheme: BaseLabel.Scheme
-    
-    // MARK: - Initialization
-    
-    init(scheme: BaseLabel.Scheme) {
-        self.scheme = scheme
-    }
-    
-    public func body(content: Content) -> some View {
-        
-        return content
-            .foregroundStyle(scheme.color)
     }
     
 }

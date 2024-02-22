@@ -32,25 +32,19 @@ public struct BaseButton: View {
         self.action = action
     }
     
+    public init(localizedKey: String, action: @escaping () -> ()) {
+        self.text = NSLocalizedString(localizedKey, comment: "")
+        self.action = action
+    }
+    
     public var body: some View {
         
         Button.init(action: action) {
             return BaseLabel.init(text: text)
-                .padding(
-                    padding
-                )
-                .background(.accent)
                 .set(scheme: .primary)
+                .padding()
         }
-        .buttonStyle(.plain)
-        .background(.accent)
-        .clipShape(
-            RoundedRectangle.init(
-                cornerRadius: 8.00, 
-                style: .continuous
-            )
-        )
-        .shadow(color: .accent, radius: 4.00)
+        .buttonStyle(.bordered)
     }
 
 }

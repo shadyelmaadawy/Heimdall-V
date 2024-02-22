@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Heimdall-Virtualization/Heimdall-Virtualization.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Heimdall-Infrastructure/Heimdall-Infrastructure.xcodeproj">
    </FileRef>
    <FileRef
