@@ -1,5 +1,5 @@
 //
-//  CentralSplitItemView.swift
+//  CentralItemView.swift
 //  Heimdall-Kit
 //
 //  Created by Shady El-Maadawy on 22/02/2024.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-public struct CentralSplitItemView: View {
+public struct CentralItemView: View {
     
     // MARK: - View Properties
     

@@ -30,16 +30,16 @@ struct HeimdallVirtualizationApp: App {
                     
                     BaseSection(title: "Control Center") {
                         
-                        CentralSplitItemView.init(
+                        CentralItemView.init(
                             item: .init(label: "Virtual-Machines", symbol: .machines)
                         )
                         .tag(SidebarItems.vm.rawValue)
-                        CentralSplitItemView.init(
+                        CentralItemView.init(
                             item: .init(label: "Dashboard", symbol: .dashboard)
                         )
                         .tag(SidebarItems.dashboard.rawValue)
 
-                        CentralSplitItemView.init(
+                        CentralItemView.init(
                             item: .init(label: "Logs", symbol: .logs)
                         )
                         .tag(SidebarItems.logs.rawValue)
@@ -48,7 +48,7 @@ struct HeimdallVirtualizationApp: App {
 
                     BaseSection.init(title: "Preferences") {
                         
-                        CentralSplitItemView.init(
+                        CentralItemView.init(
                             item: .init(label: "Settings", symbol: .settings)
                         )
                         .tag(SidebarItems.settings.rawValue)
