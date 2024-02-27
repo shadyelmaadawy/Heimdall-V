@@ -32,6 +32,10 @@
 		61CE69DF2B86FC3600AB83D7 /* BaseSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CE69DE2B86FC3600AB83D7 /* BaseSidebar.swift */; };
 		61CE69E12B87005A00AB83D7 /* BaseHStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CE69E02B87005A00AB83D7 /* BaseHStack.swift */; };
 		61CE69E42B8703BF00AB83D7 /* BaseSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61CE69E32B8703BF00AB83D7 /* BaseSplitView.swift */; };
+		61D0F0842B8D95430023F9F2 /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D0F0832B8D95430023F9F2 /* View+Ext.swift */; };
+		61D0F0882B8DB6020023F9F2 /* BaseSidebarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D0F0872B8DB6020023F9F2 /* BaseSidebarProtocols.swift */; };
+		61D0F08A2B8DB8350023F9F2 /* CentralSidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D0F0892B8DB8350023F9F2 /* CentralSidebar.swift */; };
+		61D0F08C2B8DB85E0023F9F2 /* TestViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61D0F08B2B8DB85E0023F9F2 /* TestViews.swift */; };
 		61F606B02B845866007B8EB3 /* Font+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F606AF2B845866007B8EB3 /* Font+Ext.swift */; };
 		61F606D92B845CEE007B8EB3 /* BaseLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F606D82B845CEE007B8EB3 /* BaseLabel.swift */; };
 /* End PBXBuildFile section */
@@ -73,6 +77,10 @@
 		61CE69DE2B86FC3600AB83D7 /* BaseSidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSidebar.swift; sourceTree = "<group>"; };
 		61CE69E02B87005A00AB83D7 /* BaseHStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseHStack.swift; sourceTree = "<group>"; };
 		61CE69E32B8703BF00AB83D7 /* BaseSplitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSplitView.swift; sourceTree = "<group>"; };
+		61D0F0832B8D95430023F9F2 /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
+		61D0F0872B8DB6020023F9F2 /* BaseSidebarProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseSidebarProtocols.swift; sourceTree = "<group>"; };
+		61D0F0892B8DB8350023F9F2 /* CentralSidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralSidebar.swift; sourceTree = "<group>"; };
+		61D0F08B2B8DB85E0023F9F2 /* TestViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViews.swift; sourceTree = "<group>"; };
 		61F606AF2B845866007B8EB3 /* Font+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font+Ext.swift"; sourceTree = "<group>"; };
 		61F606D82B845CEE007B8EB3 /* BaseLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -201,8 +209,8 @@
 		61CE69AE2B86EBAE00AB83D7 /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				61D0F08B2B8DB85E0023F9F2 /* TestViews.swift */,
 				61CE69E52B8705A000AB83D7 /* Central Sidebar */,
-				61CE69E22B8703AA00AB83D7 /* Sidebar */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -212,6 +220,7 @@
 			children = (
 				61CE69DE2B86FC3600AB83D7 /* BaseSidebar.swift */,
 				61CE69E32B8703BF00AB83D7 /* BaseSplitView.swift */,
+				61D0F0872B8DB6020023F9F2 /* BaseSidebarProtocols.swift */,
 			);
 			path = Sidebar;
 			sourceTree = "<group>";
@@ -220,15 +229,25 @@
 			isa = PBXGroup;
 			children = (
 				61CE69B32B86EF7300AB83D7 /* CentralItemView.swift */,
+				61D0F0892B8DB8350023F9F2 /* CentralSidebar.swift */,
 			);
 			path = "Central Sidebar";
+			sourceTree = "<group>";
+		};
+		61D0F0822B8D95320023F9F2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				617D1E042B8476C400A1B30A /* View+ViewModifiers.swift */,
+				61D0F0832B8D95430023F9F2 /* View+Ext.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		61F606AD2B84582B007B8EB3 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				61D0F0822B8D95320023F9F2 /* View */,
 				61F606AF2B845866007B8EB3 /* Font+Ext.swift */,
-				617D1E042B8476C400A1B30A /* View+ViewModifiers.swift */,
 				61CE69A32B86B1DD00AB83D7 /* Image+Ext.swift */,
 			);
 			path = Extensions;
@@ -255,6 +274,7 @@
 		61F606D72B845CE4007B8EB3 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				61CE69E22B8703AA00AB83D7 /* Sidebar */,
 				617D1E012B84760C00A1B30A /* Buttons */,
 				617D1E002B84754900A1B30A /* Label */,
 				61CE69AF2B86ED5600AB83D7 /* BaseContentView.swift */,
@@ -382,9 +402,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61D0F0882B8DB6020023F9F2 /* BaseSidebarProtocols.swift in Sources */,
 				61CE69DD2B86F77600AB83D7 /* BaseSpacer.swift in Sources */,
 				61CE69AB2B86B37000AB83D7 /* WithSymbol.swift in Sources */,
+				61D0F0842B8D95430023F9F2 /* View+Ext.swift in Sources */,
 				61CE69B42B86EF7300AB83D7 /* CentralItemView.swift in Sources */,
+				61D0F08C2B8DB85E0023F9F2 /* TestViews.swift in Sources */,
 				61CE69E42B8703BF00AB83D7 /* BaseSplitView.swift in Sources */,
 				61CE69DF2B86FC3600AB83D7 /* BaseSidebar.swift in Sources */,
 				61CE69E12B87005A00AB83D7 /* BaseHStack.swift in Sources */,
@@ -398,6 +421,7 @@
 				61F606D92B845CEE007B8EB3 /* BaseLabel.swift in Sources */,
 				61CE69B22B86EE2E00AB83D7 /* BaseImageView.swift in Sources */,
 				61CE69A42B86B1DD00AB83D7 /* Image+Ext.swift in Sources */,
+				61D0F08A2B8DB8350023F9F2 /* CentralSidebar.swift in Sources */,
 				618890342B8308D800A4BC2A /* Heimdall_Kit.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

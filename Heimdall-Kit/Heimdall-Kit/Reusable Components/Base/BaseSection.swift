@@ -11,23 +11,22 @@ public struct BaseSection<Content: View>: View {
     
     // MARK: - Properties
 
-    private let title: String
+    private let title: String?
     private let content: Content
     
     // MARK: - Initialization
     
-    public init(title: String, @ViewBuilder content: () -> Content) {
-        self.title = title
+    public init(title: String? = nil, @ViewBuilder content: () -> Content) {
+        self.title = title?.uppercased()
         self.content = content()
     }
     
     public var body: some View {
         
-        return Section.init(header: BaseLabel.init(text: self.title)
-            .with(weight: .regular, textStyle: .footnote)) {
+        return Section.init(content: {
             self.content
-
-        }
+        })
     }
 }
+
 

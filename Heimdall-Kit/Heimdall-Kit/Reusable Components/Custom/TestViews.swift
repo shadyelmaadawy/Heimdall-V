@@ -1,14 +1,15 @@
 //
-//  ContentView.swift
-//  Heimdall-V
+//  TestViews.swift
+//  Heimdall-Kit
 //
-//  Created by Shady El-Maadawy on 19/02/2024.
+//  Created by Shady El-Maadawy on 27/02/2024.
 //
 
 import SwiftUI
-import Heimdall_Kit
 
 struct ContentView: View {
+    
+    @State var x: String = "hello"
     var body: some View {
         
         VStack {
@@ -44,21 +45,15 @@ struct ContentView: View {
 }
 
 struct ContentView1: View {
-    var body: some View {
-        
-        VStack {
-            
-            BaseButton.init(text: "Hello-World!;") {
-                print("Hello-World!;")
-            }
-            
-            BaseLabel.init(text: "Hello-World!;")
-                .with(weight: .semiBoldItalic, textStyle: .body)
-                .set(scheme: .label)
+    @State var x: String = "hello"
 
-            Text("Hello, world!")
-        }
-        .padding()
+    var body: some View {
+        VStack.init(content: {
+            TextField("Hello", text: $x)
+            Button.init(action: {print(x)}, label: {
+                /*@START_MENU_TOKEN@*/Text("Button")/*@END_MENU_TOKEN@*/
+            })
+        })
     }
 }
 

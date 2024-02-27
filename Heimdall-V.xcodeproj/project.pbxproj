@@ -10,7 +10,6 @@
 		617D1DEB2B8464CE00A1B30A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61888FE72B8302FD00A4BC2A /* Preview Assets.xcassets */; };
 		617D1DF82B84650100A1B30A /* Heimdall_Kit.framework in Resources */ = {isa = PBXBuildFile; fileRef = 618A40C62B8317970043B343 /* Heimdall_Kit.framework */; };
 		61888FE02B8302FA00A4BC2A /* HeimdallVirtualizationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61888FDF2B8302FA00A4BC2A /* HeimdallVirtualizationApp.swift */; };
-		61888FE22B8302FA00A4BC2A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61888FE12B8302FA00A4BC2A /* ContentView.swift */; };
 		61888FE42B8302FD00A4BC2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61888FE32B8302FD00A4BC2A /* Assets.xcassets */; };
 		61888FFC2B8302FD00A4BC2A /* Heimdall_VTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61888FFB2B8302FD00A4BC2A /* Heimdall_VTests.swift */; };
 		618A40C32B8317910043B343 /* Heimdall_Infrastructure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 618A40C22B8317910043B343 /* Heimdall_Infrastructure.framework */; };
@@ -56,7 +55,6 @@
 /* Begin PBXFileReference section */
 		61888FDC2B8302FA00A4BC2A /* Heimdall-V.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Heimdall-V.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		61888FDF2B8302FA00A4BC2A /* HeimdallVirtualizationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HeimdallVirtualizationApp.swift; path = "Heimdall-V/Application/Delegates/HeimdallVirtualizationApp.swift"; sourceTree = "<group>"; };
-		61888FE12B8302FA00A4BC2A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "Heimdall-V/Presentation/Modules/ContentView.swift"; sourceTree = "<group>"; };
 		61888FE32B8302FD00A4BC2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "Heimdall-V/Application/Resources/Assets.xcassets"; sourceTree = "<group>"; };
 		61888FE52B8302FD00A4BC2A /* Heimdall_V.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = Heimdall_V.entitlements; path = "Heimdall-V/Application/Configuration/Heimdall_V.entitlements"; sourceTree = "<group>"; };
 		61888FE72B8302FD00A4BC2A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Preview Assets.xcassets"; path = "Heimdall-V/Application/Resources/Preview Content/Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -175,7 +173,6 @@
 		618890C22B830E1E00A4BC2A /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				61888FE12B8302FA00A4BC2A /* ContentView.swift */,
 			);
 			name = Modules;
 			sourceTree = "<group>";
@@ -374,7 +371,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61888FE22B8302FA00A4BC2A /* ContentView.swift in Sources */,
 				61888FE02B8302FA00A4BC2A /* HeimdallVirtualizationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

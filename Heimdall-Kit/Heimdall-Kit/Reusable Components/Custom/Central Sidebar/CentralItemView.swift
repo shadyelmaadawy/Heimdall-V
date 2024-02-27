@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-public struct CentralItemView: View {
+public struct CentralItemView<T: SplitViewItemsProtocol & RawRepresentable>: View where T.RawValue == Int {
     
     // MARK: - View Properties
     
@@ -27,14 +27,17 @@ public struct CentralItemView: View {
         }
         
         // MARK: - Properties
+        
+        internal let itemIdx: Int
         internal let label: String
         internal let symbol: Image.SymbolsBaseNames
-        
+
         // MARK: - Initialization
         
-        public init(label: String, symbol: Image.SymbolsBaseNames) {
-            self.label = label
-            self.symbol = symbol
+        public init(item: T) {
+            self.itemIdx = item.rawValue
+            self.label = item.title
+            self.symbol = item.symbol
         }
         
     }
@@ -64,6 +67,8 @@ public struct CentralItemView: View {
             })
             .listRowInsets(self.padding)
         }
+        .tag(self.item.itemIdx)
+
 
     }
 }
